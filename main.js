@@ -1,3 +1,4 @@
+"use strict"
 let numValue=10;
 let stringValue="10";
 
@@ -20,3 +21,27 @@ else
     console.log("false");
 }
 //here value as well as data type is compared
+
+
+
+if(numValue!==stringValue)//ERROR:unexpected token'='
+{
+    console.log("true");
+}
+else
+{
+    console.log("false");
+}
+
+/*
+if(numValue>==stringValue)//ERROR:unexpected token'='
+{
+    console.log("true");
+}
+else
+{
+    console.log("false");
+}
+*/
+
+//=== operator cannot be used with >,<
